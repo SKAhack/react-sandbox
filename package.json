@@ -1,0 +1,22 @@
+{
+  "name": "react-sandbox",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/SKAhack/react-sandbox.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SKAhack/react-sandbox/issues"
+  },
+  "homepage": "https://github.com/SKAhack/react-sandbox",
+  "dependencies": {
+    "debug": "^2.1.0",
+    "express": "^4.10.1"
+  }
+}
