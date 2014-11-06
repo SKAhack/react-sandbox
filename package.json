@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/SKAhack/react-sandbox",
   "dependencies": {
+    "body-parser": "^1.9.2",
     "debug": "^2.1.0",
     "express": "^4.10.1"
   }
