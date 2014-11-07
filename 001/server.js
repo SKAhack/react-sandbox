@@ -16,6 +16,12 @@ app.get('/comments.json', function(req, res) {
   res.send(JSON.stringify(comments));
 });
 
+app.post('/comments.json', function(req, res) {
+  comments.push(req.body);
+  res.setHeader('Content-Type', 'application/json');
+  res.send(JSON.stringify(comments));
+});
+
 app.listen(3000);
 
 debug('Server started: http://localhost:3000/');
